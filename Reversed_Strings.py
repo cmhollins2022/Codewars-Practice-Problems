@@ -1,5 +1,6 @@
 def solution(text: str):
-    return ( )
+    reversed_string = text[::-1]
+    return reversed_string
 
 
 solution("string")
