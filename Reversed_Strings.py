@@ -1,6 +1,6 @@
 def solution(text: str):
-    reversed_string = text[::-1] # Slice through the list backwards (indexing)
-    return reversed_string
+    reversed_string = text[::-1] # slice through the list backwards (indexing)
+    return print(reversed_string) # print results
 
 
 solution("string")
