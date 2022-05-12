@@ -1,5 +1,5 @@
 def make_negative(number: int):
-    if number > 0:
+    if number > 0: # Check to see if the number is greater than 0
         return print(number.__neg__())
     elif number <= 0:
         return print(number)
