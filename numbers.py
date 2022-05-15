@@ -13,3 +13,6 @@ def sum_mix(arr):
     return print(sum(new_list))  # add the items in the list
 
 
+sum_mix(['2', 3, 4, 5])  # should be 14
+sum_mix(['2', '3', 6, '7'])  # should be 18
+sum_mix(['3', 3, '4', 5, 6, '7']) # should be 28
