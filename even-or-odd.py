@@ -3,3 +3,5 @@ def even_or_odd(number):
         return print("Even")  # if so, print "even"
     else:
         return print("Odd")  # if not, print "odd"
+
+even_or_odd(2)  # should be even
