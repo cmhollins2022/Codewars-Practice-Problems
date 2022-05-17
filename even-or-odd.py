@@ -6,3 +6,4 @@ def even_or_odd(number):
 
 even_or_odd(2)  # should be even
 even_or_odd(3)  # should be odd
+even_or_odd(4)  # should be even
