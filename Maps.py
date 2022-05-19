@@ -7,3 +7,4 @@ def maps(a):
 
 maps([1, 2, 3])  # should be [2, 4, 6]
 maps([1, 2, 3, 4, 5, 6])  # should be [2, 4, 6, 8, 10, 12]
+maps([3, 4, 3, 4, 5])  # should be [6, 8, 6, 8, 10]
