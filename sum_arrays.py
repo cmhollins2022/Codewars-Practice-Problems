@@ -13,3 +13,6 @@ def sum_array(a: list):
 
 sum_array([])
 sum_array([1, 2, 3])
+
+# sum_array_2([])
+# sum_array_2([1, 2, 3])
