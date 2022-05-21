@@ -10,3 +10,6 @@ def sum_array(a: list):
 #         while number is True:
 #             a[0] = number + a
 #     return a[0]
+
+sum_array([])
+sum_array([1, 2, 3])
