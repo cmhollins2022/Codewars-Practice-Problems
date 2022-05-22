@@ -2,7 +2,8 @@ def index(numbers_list: list, n: int):
     try: # Check to see if "n" is an index within the list
         i = numbers_list[n]**n # if so, ** to the power of n
         return i # return the exponential value
-    
+    except: # if "n" is not an index, return -1
+        return -1
 
 
 # def index(numbers_list: list, n: int):
