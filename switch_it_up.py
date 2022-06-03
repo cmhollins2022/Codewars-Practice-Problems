@@ -6,3 +6,5 @@ def switch_it_up(number: int): # Specify our type.
     return numbers_dict.get(number) # Index our function input from the dictionary.
   
   # Another way...
+def switch_it_up(n):
+    return ['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine'][n]
