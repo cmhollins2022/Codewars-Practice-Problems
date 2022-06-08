@@ -9,3 +9,8 @@ def solution(word: str):  # Type our input
         else:  # If it's anything else...
             continue
     return ''.join(empty_list)  # Join our list together by "", or nothing
+
+# Another way... (List comprehension)
+
+def solution(s):
+    return ''.join(' ' + c if c.isupper() else c for c in s)
