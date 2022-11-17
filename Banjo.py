@@ -14,3 +14,10 @@ def are_you_playing_banjo(name: str):
 # Alternatively... 
 def areYouPlayingBanjo(name):
     return name + (' plays' if name[0].lower() == 'r' else ' does not play') + " banjo"
+
+# Also this one...
+def are_you_playing_banjo(name: str):
+    if name[0].capitalize() == "R":
+        return f"{name} plays banjo"
+    else:
+        return f"{name} does not play banjo"
